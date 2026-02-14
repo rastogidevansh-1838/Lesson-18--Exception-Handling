@@ -1,10 +1,8 @@
 try:
     age = int(input("Enter your age: "))
-    print("Your age is", age)
-    
-    if age % 2 == 0:
-        print("Your age is even")
+    if age%2==0:
+        print("your age is even")
     else:
-        print("Your age is odd")
+        print("your age is odd")
 except:
     print("Invalid!!")
